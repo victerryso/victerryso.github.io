@@ -1,0 +1,11 @@
+[
+  {
+    "name": "University of Sydney",
+    "projects": [
+      {
+        "name": "Bridge",
+        "imageURL": "/images/bridge.png"
+      }
+    ]
+  }
+]

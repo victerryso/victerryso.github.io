@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { cyan, grey } from '@material-ui/core/colors';
+import Header from './components/Header'
+import CollisionDetector from './components/CollisionDetector'
+import Introduction from './components/Introduction'
+import ProjectGrid from './components/ProjectGrid'
+import Section from './components/Section'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const theme = createMuiTheme({
+  palette: {
+    // type: 'dark',
+    primary: cyan,
+    text: {
+      primary: `rgba(38, 50, 56, 0.87)`,
+      secondary: `rgba(96, 125, 139, 0.54)`,
+    }
+  },
+  typography: {
+    // fontSize: 24,
+    // fontWeightRegular: 500,
+    fontFamily: `-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif`,
+  },
+});
+
+const App = () => (
+  <ThemeProvider theme={theme}>
+    <Header />
+    <CollisionDetector />
+    <Section>
+      <Introduction />
+    </Section>
+    <Section color={grey[50]}>
+      <ProjectGrid />
+    </Section>
+  </ThemeProvider>
+);
 
 export default App;

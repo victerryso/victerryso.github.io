@@ -1,0 +1,215 @@
+[
+    {
+        "background": "../images/covid-bg.png",
+        "company": "Personal Projects",
+        "description": "Data visualisation of Covid-19 using data by Johns Hopkins University",
+        "name": "COVID-19",
+        "technologies": [
+            "React",
+            "Material UI",
+            "Amcharts",
+            "Surge"
+        ]
+    },
+    {
+        "background": "../images/thursdays-bg.png",
+        "company": "Personal Projects",
+        "description": "Data visualisation of my weekly Thursday night dining locations",
+        "name": "Thursdays",
+        "technologies": [
+            "React",
+            "Geocoder",
+            "Snazzy Maps",
+            "Surge"
+        ]
+    },
+    {
+        "background": "../images/bridge.png",
+        "company": "University of Sydney",
+        "description": "Training tool used to practice listening, rating specific features of voice and speech, and receive immediate feedback",
+        "name": "Bridge2Practice",
+        "technologies": [
+            "Meteor",
+            "AWS",
+            "Web RTC",
+            "Highcharts"
+        ]
+    },
+    {
+        "background": "../images/bridge-book-bg.png",
+        "company": "University of Sydney",
+        "description": "Documentation for Bridge and a step by step instructions on how to reacquire environmental keys",
+        "name": "Bridge Book",
+        "technologies": [
+            "React",
+            "Gatsby",
+            "Material UI"
+        ]
+    },
+    {
+        "background": "../images/dlvp.png",
+        "company": "University of Sydney",
+        "description": "Latest news feed of the Dr Liang Voice Program",
+        "name": "DLVP",
+        "technologies": [
+            "React",
+            "Gatsby",
+            "Contentful",
+            "Netlify"
+        ]
+    },
+    {
+        "background": "../images/ace-bg.png",
+        "company": "University of Sydney",
+        "description": "Online learning module to prepare students for fieldwork placement",
+        "name": "ACE",
+        "technologies": [
+            "Meteor",
+            "Galaxy",
+            "Web RTC",
+            "Natural Language"
+        ]
+    },
+    {
+        "background": "../images/vhs-bg.png",
+        "company": "University of Sydney",
+        "description": "Video catalogue and player for the School of Health Sciences",
+        "name": "VHS",
+        "technologies": [
+            "Meteor",
+            "Semantic UI",
+            "Plyr",
+            "Digital Ocean"
+        ]
+    },
+    {
+        "background": "../images/piazza-bg.png",
+        "company": "University of Sydney",
+        "description": "Data visualisations of student interactions and behaviours in a forum",
+        "name": "Piazza Analytics",
+        "technologies": [
+            "Meteor",
+            "Highcharts",
+            "Digital Ocean"
+        ]
+    },
+    {
+        "background": "../images/ipl-bg.png",
+        "company": "University of Sydney",
+        "description": "Informative guide on how to learn and assist through interprofessions",
+        "name": "IPL",
+        "technologies": [
+            "Wordpress"
+        ]
+    },
+    {
+        "background": "../images/extralarge-bg.png",
+        "company": "University of Sydney",
+        "description": "Academic integrity checker for Excel document while also providing rapid marking and feedback functionality",
+        "name": "Extralarge",
+        "technologies": [
+            "Meteor",
+            "XPath",
+            "MS Excel Parsing"
+        ]
+    },
+    {
+        "background": "../images/emc-bg.png",
+        "company": "University of Sydney",
+        "description": "Calculator for formulas in Exercise and Sports Science",
+        "name": "Exercise my Calculations",
+        "technologies": [
+            "React",
+            "Latex",
+            "Material UI"
+        ]
+    },
+    {
+        "background": "../images/mrsflip-bg.png",
+        "company": "University of Sydney",
+        "description": "Content management system for Medical Radiation Science",
+        "name": "MRSflip",
+        "technologies": [
+            "Django",
+            "Reauthoring",
+            "Data2u"
+        ]
+    },
+    {
+        "background": "../images/mrsflix-bg.png",
+        "company": "University of Sydney",
+        "description": "Video player for Medical Radiation Science",
+        "name": "MRSflix",
+        "technologies": [
+            "Meteor",
+            "Semantic UI",
+            "Plyr"
+        ]
+    },
+    {
+        "background": "../images/captain-bg.png",
+        "company": "University of Sydney",
+        "description": "Training tool used to practice listening, rating specific features of voice and speech, and receive immediate feedback",
+        "name": "Captain",
+        "technologies": [
+            "Meteor",
+            "Materialize",
+            "Highcharts"
+        ]
+    },
+    {
+        "background": "../images/playfair-bg.png",
+        "company": "PricewaterhouseCoopers",
+        "description": "OCR parsing to collect data in PDF forms for benchmarking, analytics and generating Word reports",
+        "name": "Playfair",
+        "technologies": [
+            "Ruby on Rails",
+            "Tesseract",
+            "MS Word Parsing",
+            "Dentaku",
+            "ODF Reports",
+            "Wicked PDF"
+        ]
+    },
+    {
+        "name": "Swift",
+        "description": "Parsing Excel sheets and categorising fixed assets into their classifications",
+        "background": "../images/swift-bg.png",
+        "company": "PricewaterhouseCoopers",
+        "technologies": [
+            "Meteor",
+            "Semantic UI",
+            "XPath",
+            "MS Excel Parsing"
+        ]
+    },
+    {
+        "name": "Knowledge",
+        "description": "Visual representation of a hierarchy system",
+        "background": "../images/knowledge-bg.png",
+        "company": "PricewaterhouseCoopers",
+        "technologies": [
+            "Meteor",
+            "Semantic UI"
+        ]
+    },
+    {
+        "name": "Private Playground",
+        "description": "Ecommerce platform for selling goodies",
+        "background": "../images/private-playground-bg.png",
+        "company": "Freelance",
+        "technologies": [
+            "Shopify"
+        ]
+    },
+    {
+        "name": "Agile Hotspot",
+        "description": "Online learning platform for agile and scrum certification ",
+        "background": "../images/agile-hotspot.png",
+        "company": "Freelance",
+        "technologies": [
+            "Thinkific",
+            "Google Ads"
+        ]
+    }
+]
