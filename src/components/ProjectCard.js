@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import Chip from '@material-ui/core/Chip';
+import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
@@ -52,13 +53,15 @@ const ProjectCard = function (props) {
   return (
     <>
       <div className={classes.root}>
-        <Paper
-          className={classes.paper}
-          style={{ backgroundImage: `url(${props.image})` }}
-          elevation={elevation}
-          onMouseOut={() => setElevation(1)}
-          onMouseOver={() => setElevation(5)}
-        />
+        <Link href={props.url}>
+          <Paper
+            className={classes.paper}
+            style={{ backgroundImage: `url(${props.image})` }}
+            elevation={elevation}
+            onMouseOut={() => setElevation(1)}
+            onMouseOver={() => setElevation(5)}
+          />
+        </Link>
       </div>
 
         <div className={classes.chips}>
@@ -72,10 +75,15 @@ const ProjectCard = function (props) {
         </div>
 
       <Typography variant='h6' gutterBottom>
-        <span className={classes.title}>
-          {props.name}
-        </span>
-
+        {props.url ? (
+          <Link className={classes.title} href={props.url}>
+            {props.name}
+          </Link>
+          ): (
+          <span className={classes.title}>
+            {props.name}
+          </span>
+        )}
       </Typography>
 
       <Typography variant='body1' paragraph className={classes.description}>

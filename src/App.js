@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import { cyan, grey } from '@material-ui/core/colors';
+import { blue, grey } from '@material-ui/core/colors';
 import Header from './components/Header'
 import CollisionDetector from './components/CollisionDetector'
 import Introduction from './components/Introduction'
@@ -9,16 +9,13 @@ import Section from './components/Section'
 
 const theme = createMuiTheme({
   palette: {
-    // type: 'dark',
-    primary: cyan,
+    primary: blue,
     text: {
       primary: `rgba(38, 50, 56, 0.87)`,
       secondary: `rgba(96, 125, 139, 0.54)`,
     }
   },
   typography: {
-    // fontSize: 24,
-    // fontWeightRegular: 500,
     fontFamily: `-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif`,
   },
 });

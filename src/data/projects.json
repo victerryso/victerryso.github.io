@@ -9,7 +9,8 @@
             "Material UI",
             "Amcharts",
             "Surge"
-        ]
+        ],
+        "url": "https://covid.surge.sh"
     },
     {
         "background": "../images/thursdays-bg.png",
@@ -21,7 +22,20 @@
             "Geocoder",
             "Snazzy Maps",
             "Surge"
-        ]
+        ],
+        "url": "https://thursdays.surge.sh"
+    },
+    {
+        "background": "../images/portfolio-bg.png",
+        "company": "Personal Projects",
+        "description": "Data visualisation of my weekly Thursday night dining locations",
+        "name": "Portfolio",
+        "technologies": [
+            "React",
+            "D3",
+            "Material UI"
+        ],
+        "url": "https://victerryso.surge.sh"
     },
     {
         "background": "../images/bridge.png",
@@ -38,12 +52,13 @@
     {
         "background": "../images/bridge-book-bg.png",
         "company": "University of Sydney",
-        "description": "Documentation for Bridge and a step by step instructions on how to reacquire environmental keys",
+        "description": "Documentation for Bridge and a step by step instruction manual on how to acquire environmental keys",
         "name": "Bridge Book",
         "technologies": [
             "React",
             "Gatsby",
-            "Material UI"
+            "Material UI",
+            "Netlify"
         ]
     },
     {
@@ -96,7 +111,7 @@
     {
         "background": "../images/ipl-bg.png",
         "company": "University of Sydney",
-        "description": "Informative guide on how to learn and assist through interprofessions",
+        "description": "Informative guide on how to develop and collaborate through interprofession for Work Integrated Learning",
         "name": "IPL",
         "technologies": [
             "Wordpress"
@@ -105,7 +120,7 @@
     {
         "background": "../images/extralarge-bg.png",
         "company": "University of Sydney",
-        "description": "Academic integrity checker for Excel document while also providing rapid marking and feedback functionality",
+        "description": "Academic integrity checker for Excel sheets while also providing rapid marking and feedback functionality",
         "name": "Extralarge",
         "technologies": [
             "Meteor",
@@ -116,18 +131,18 @@
     {
         "background": "../images/emc-bg.png",
         "company": "University of Sydney",
-        "description": "Calculator for formulas in Exercise and Sports Science",
+        "description": "Calculator for formulas for the Faculty of Exercise and Sports Science",
         "name": "Exercise my Calculations",
         "technologies": [
             "React",
-            "Latex",
-            "Material UI"
+            "Material UI",
+            "Latex"
         ]
     },
     {
         "background": "../images/mrsflip-bg.png",
         "company": "University of Sydney",
-        "description": "Content management system for Medical Radiation Science",
+        "description": "Flipped classroom for the Faculty of Medical Radiation Science",
         "name": "MRSflip",
         "technologies": [
             "Django",
@@ -138,12 +153,12 @@
     {
         "background": "../images/mrsflix-bg.png",
         "company": "University of Sydney",
-        "description": "Video player for Medical Radiation Science",
+        "description": "Video catalogue for the Faculty of Medical Radiation Science",
         "name": "MRSflix",
         "technologies": [
             "Meteor",
             "Semantic UI",
-            "Plyr"
+            "Vimeo"
         ]
     },
     {
@@ -159,7 +174,7 @@
     },
     {
         "background": "../images/playfair-bg.png",
-        "company": "PricewaterhouseCoopers",
+        "company": "PwC",
         "description": "OCR parsing to collect data in PDF forms for benchmarking, analytics and generating Word reports",
         "name": "Playfair",
         "technologies": [
@@ -175,7 +190,7 @@
         "name": "Swift",
         "description": "Parsing Excel sheets and categorising fixed assets into their classifications",
         "background": "../images/swift-bg.png",
-        "company": "PricewaterhouseCoopers",
+        "company": "PwC",
         "technologies": [
             "Meteor",
             "Semantic UI",
@@ -187,7 +202,7 @@
         "name": "Knowledge",
         "description": "Visual representation of a hierarchy system",
         "background": "../images/knowledge-bg.png",
-        "company": "PricewaterhouseCoopers",
+        "company": "PwC",
         "technologies": [
             "Meteor",
             "Semantic UI"
@@ -210,6 +225,19 @@
         "technologies": [
             "Thinkific",
             "Google Ads"
+        ]
+    },
+    {
+        "name": "Rate My Voice",
+        "description": "Daily quantitative record keeping of one's own voice disorders",
+        "background": "../images/rate-my-voice-bg.png",
+        "company": "Freelance",
+        "technologies": [
+            "React",
+            "Express",
+            "Mongo",
+            "Node",
+            "Material UI"
         ]
     }
 ]

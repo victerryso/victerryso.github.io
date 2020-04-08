@@ -42,13 +42,14 @@ const ProjectGrid = function (props) {
 
             <Grid container spacing={5} className={classes.grid}>
 
-              {getProjects(company).map(({ name, description, background, technologies }, index) => (
+              {getProjects(company).map(({ name, description, background, technologies, url }, index) => (
                 <Grid item xs={12} sm={6} md={4} key={index}>
                   <ProjectCard
                     name={name}
                     description={description}
                     image={background}
                     chips={technologies}
+                    url={url}
                   />
                 </Grid>
               ))}

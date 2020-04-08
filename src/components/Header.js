@@ -10,7 +10,7 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
   },
   nav: {
-    // background: 'rgba(255, 255, 255, 0.9)',
+    background: '#fff',
     // color: '#303030',
     // backdropFilter: 'blur(10px)',
   },
@@ -27,7 +27,7 @@ const Header = function (props) {
   return (
     <div className={classes.root}>
       <Slide appear={false} direction="down" in={trigger}>
-        <AppBar position="fixed" className={classes.nav}>
+        <AppBar position="fixed" className={classes.nav} color='default'>
           <Toolbar>
             <h3 className={classes.title}>
               Munch with Victerry
