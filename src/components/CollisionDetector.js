@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-// import Shake from'shake.js';
+// import Shake from 'shake.js';
+import Waves from './Waves'
 import d3 from '../lib/d3';
 
 // Collision Detector by Mike Bostock
@@ -15,6 +16,7 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'center',
     background: '#263238',
+    backgroundImage: `linear-gradient(-74deg, #23afba 0%, #298dbf 50%, #306bc4 100%)`,
 
     '& canvas': {
       position: 'absolute',
@@ -223,6 +225,8 @@ const CollisionDetector = function (props) {
         <h2>✕</h2>
         <h2>Developer | Sydney, Australia</h2>
       </div>
+
+      <Waves />
     </div>
   );
 
