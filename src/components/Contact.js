@@ -29,7 +29,7 @@ const Contact = function (props) {
 
       <Container className={classes.container} maxWidth='md'>
         <Typography variant='h5' gutterBottom className={classes.title}>
-          Get in touch?
+          Get in touch
         </Typography>
 
         <Typography variant='body1' paragraph className={classes.text}>
