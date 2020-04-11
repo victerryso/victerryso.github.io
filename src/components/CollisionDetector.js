@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 // import Shake from 'shake.js';
-import Waves from './Waves'
+import Waves from './WavesBottom'
 import d3 from '../lib/d3';
 
 // Collision Detector by Mike Bostock

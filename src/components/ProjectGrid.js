@@ -8,10 +8,16 @@ import ProjectCard from './ProjectCard'
 
 const useStyles = makeStyles(theme => ({
   grid: {
-    marginBottom: theme.spacing(3)
+    marginBottom: theme.spacing(3),
+    '&:last-child': {
+      marginBottom: 0,
+    }
   },
   company: {
-    marginBottom: theme.spacing(10)
+    marginBottom: theme.spacing(10),
+    '&:last-child': {
+      marginBottom: 0,
+    }
   },
   title: {
     fontWeight: 700,
