@@ -3,12 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    // position: 'absolute',
-    // top: -280,
-    // left: 0,
-    // right: 0,
     width: '100%',
     zIndex: 5,
+    paddingBottom: theme.spacing(12),
   },
 }));
 
@@ -30,5 +27,3 @@ const Waves = function (props) {
 }
 
 export default Waves
-
-

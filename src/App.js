@@ -25,7 +25,7 @@ const App = () => (
   <ThemeProvider theme={theme}>
     <Header />
     <CollisionDetector />
-    <Section style={{ paddingTop: theme.spacing(3) }}>
+    <Section style={{ paddingTop: theme.spacing(12) }}>
       <Introduction />
     </Section>
     <Section color={grey[50]} style={{ paddingBottom: 0 }}>

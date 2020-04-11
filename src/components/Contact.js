@@ -6,9 +6,6 @@ import Waves from './WavesTop';
 import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles(theme => ({
-  container: {
-    paddingTop: theme.spacing(6),
-  },
   title: {
     fontSize: 36,
     fontWeight: theme.typography.fontWeightBold,
