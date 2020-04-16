@@ -2,7 +2,7 @@
     {
         "background": "../images/covid-bg.png",
         "company": "Personal Projects",
-        "description": "Data visualisation of Covid-19 using data by Johns Hopkins University",
+        "description": "Data visualisation of Covid-19 utilising data by Johns Hopkins University",
         "name": "COVID-19",
         "technologies": [
             "React",
@@ -28,7 +28,7 @@
     {
         "background": "../images/portfolio-bg.png",
         "company": "Personal Projects",
-        "description": "Data visualisation of my weekly Thursday night dining locations",
+        "description": "Collection of the projects I've worked on throughout my career as a Web Developer",
         "name": "Portfolio",
         "technologies": [
             "React",
@@ -40,7 +40,7 @@
     {
         "background": "../images/bridge.png",
         "company": "University of Sydney",
-        "description": "Training tool used to practice listening, rating specific features of voice and speech, and receive immediate feedback",
+        "description": "Training tool for speech pathologists used by multiple institutions globally",
         "name": "Bridge2Practice",
         "technologies": [
             "Meteor",
@@ -88,7 +88,7 @@
     {
         "background": "../images/vhs-bg.png",
         "company": "University of Sydney",
-        "description": "Video catalogue and player for the School of Health Sciences",
+        "description": "Video catalogue for the School of Health Sciences",
         "name": "VHS",
         "technologies": [
             "Meteor",
@@ -229,7 +229,7 @@
     },
     {
         "name": "Rate My Voice",
-        "description": "Daily quantitative record keeping of one's own voice disorders",
+        "description": "Quantitative assessment and record of one's own voice",
         "background": "../images/rate-my-voice-bg.png",
         "company": "Freelance",
         "technologies": [
