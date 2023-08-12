@@ -6,6 +6,9 @@ import Waves from './WavesTop';
 import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles(theme => ({
+  root: {
+    width: '100vw',
+  },
   title: {
     fontSize: 36,
     fontWeight: theme.typography.fontWeightBold,
@@ -17,14 +20,14 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const email = 'victerryso@gmail.com'
-const link = 'mailto:victerryso@gmail.com'
+const email = 'victerry.so@gmail.com'
+const link = 'mailto:victerry.so@gmail.com'
 
 const Contact = function (props) {
   const classes = useStyles()
 
   return (
-    <>
+    <div className={classes.root}>
       <Waves />
 
       <Container className={classes.container} maxWidth='md'>
@@ -36,7 +39,7 @@ const Contact = function (props) {
           Message me at <Link href={link} className={classes.text}><strong>{email}</strong></Link>
         </Typography>
       </Container>
-    </>
+    </div>
   )
 }
 

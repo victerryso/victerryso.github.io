@@ -17,25 +17,23 @@ const Introduction = function (props) {
   const classes = useStyles()
 
   return (
-    <>
-      <Container maxWidth='md'>
-        <Typography variant='body1' paragraph color='textSecondary' className={classes.text}>
-          Howdy there! I'm
-        </Typography>
+    <Container maxWidth='md'>
+      <Typography variant='body1' paragraph color='textSecondary' className={classes.text}>
+        Howdy there! I'm
+      </Typography>
 
-        <Typography variant='h5' gutterBottom color='textPrimary' className={classes.name}>
-          Victerry So
-        </Typography>
+      <Typography variant='h5' gutterBottom color='textPrimary' className={classes.name}>
+        Victerry So
+      </Typography>
 
-        <Typography variant='body1' paragraph color='textPrimary' className={classes.text}>
-          <strong>Full Stack Developer</strong> working at the <strong>University of Sydney</strong>
-        </Typography>
+      <Typography variant='body1' paragraph color='textPrimary' className={classes.text}>
+        <strong>Senior Software Engineer</strong> working at <strong>Hireup</strong>
+      </Typography>
 
-        <Typography variant='body1' paragraph color='textPrimary' className={classes.text}>
-          Personal focuses on rapid prototyping, data analytics and visualisations
-        </Typography>
-      </Container>
-    </>
+      <Typography variant='body1' paragraph color='textPrimary' className={classes.text}>
+        Personal focuses on rapid prototyping, data analytics and visualisations
+      </Typography>
+    </Container>
   )
 }
 

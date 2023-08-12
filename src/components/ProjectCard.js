@@ -22,7 +22,6 @@ const useStyles = makeStyles(theme => ({
     left: 0,
     height: '100%',
     width: '100%',
-    cursor: 'pointer',
   },
   title: {
     fontWeight: 700,
@@ -74,7 +73,7 @@ const ProjectCard = function (props) {
           ))}
         </div>
 
-      <Typography variant='h6' gutterBottom>
+      <Typography variant='h6' color='textPrimary' gutterBottom>
         {props.url ? (
           <Link className={classes.title} href={props.url}>
             {props.name}
@@ -86,7 +85,7 @@ const ProjectCard = function (props) {
         )}
       </Typography>
 
-      <Typography variant='body1' paragraph className={classes.description}>
+      <Typography variant='body1' color='textPrimary' paragraph className={classes.description}>
         {props.description}
       </Typography>
     </>

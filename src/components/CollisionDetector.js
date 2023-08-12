@@ -223,7 +223,7 @@ const CollisionDetector = function (props) {
       <div className={classes.textContainer}>
         <h1>Victerry</h1>
         <h2>✕</h2>
-        <h2>Developer | Sydney, Australia</h2>
+        <h2>Sydney, Australia</h2>
       </div>
 
       <Waves />

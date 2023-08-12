@@ -19,36 +19,48 @@ const useStyles = makeStyles(theme => ({
       marginBottom: 0,
     }
   },
+  titleWrapper: {
+    display: 'flex',
+    alignItems: 'baseline',
+    marginBottom: theme.spacing(3),
+  },
   title: {
     fontWeight: 700,
-    marginBottom: theme.spacing(3)
+    marginRight: theme.spacing(2)
   },
 }));
 
 const ProjectGrid = function (props) {
   let classes = useStyles()
 
-  let companies = projects.map(({ company }) => company)
-    .reduce((memo, company) => {
-      return memo.includes(company) ? memo : [...memo, company]
+  let companies = projects
+    .reduce((memo, { company, team }) => {
+      const stringified = JSON.stringify({ company, team })
+      return memo.includes(stringified) ? memo : [...memo, stringified]
     }, [])
+    .map(json => JSON.parse(json));
 
-  let getProjects = company => {
-    return projects.filter(project => project.company === company)
+  let getProjects = ({ company, team }) => {
+    return projects.filter(project => project.company === company && project.team === team)
   }
 
   return (
     <div className={classes.root}>
       <Container>
-        {companies.map((company, index) => (
+        {companies.map(({ company, team }, index) => (
           <div className={classes.company} key={index}>
-            <Typography variant='h4' className={classes.title} gutterBottom>
-              {company}
-            </Typography>
+            <div className={classes.titleWrapper}>
+            <Typography variant='h4' color='textPrimary' className={classes.title} gutterBottom>
+                {company}
+              </Typography>
+              <Typography variant='h5' color='textSecondary' className={classes.title} gutterBottom>
+                {team}
+              </Typography>
+            </div>
 
-            <Grid container spacing={5} className={classes.grid}>
+            <Grid container spacing={4} className={classes.grid}>
 
-              {getProjects(company).map(({ name, description, background, technologies, url }, index) => (
+              {getProjects({ company, team }).map(({ name, description, background, technologies, url }, index) => (
                 <Grid item xs={12} sm={6} md={4} key={index}>
                   <ProjectCard
                     name={name}
