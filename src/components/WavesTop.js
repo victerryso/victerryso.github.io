@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
@@ -8,16 +8,28 @@ const useStyles = makeStyles(theme => ({
     paddingBottom: theme.spacing(12),
   },
   svg: {
-    maxHeight: 200
+    width: '100%'
   }
 }));
 
 const Waves = function (props) {
   let classes = useStyles()
 
+  const [height, setHeight] = useState(window.innerWidth / 8)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setHeight(window.innerWidth / 8);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  });
+
   return (
     <div className={classes.root}>
-      <svg preserveAspectRatio="none" viewBox="0 0 1920 280" xmlns="http://www.w3.org/2000/svg" className={classes.svg}>
+      <svg preserveAspectRatio="none" viewBox="0 0 1920 280" xmlns="http://www.w3.org/2000/svg" className={classes.svg} style={{ height }}>
         <g fill="#fafafa">
           <path d="M1920 0v19.387c-211.21 136.245-517.564 173.305-919.061 111.18C679.068 80.763 345.422 103.907 0 200L-2 0h1922z"/>
           <path d="M1920 0v4c-252.04 171.948-554.875 231.087-908.506 177.417C361.105 82.709-2.15 200 .254 200 1.858 200 1.106 133.333-2 0h1922z" fillOpacity="0.35"/>

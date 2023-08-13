@@ -7,7 +7,7 @@ import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    width: '100vw',
+    width: '100%',
   },
   title: {
     fontSize: 36,

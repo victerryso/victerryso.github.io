@@ -1,26 +1,38 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
   root: {
     position: 'absolute',
-    bottom: -5,
+    bottom: -4,
     left: 0,
     right: 0,
     width: '100%',
     zIndex: 5,
   },
   svg: {
-    maxHeight: 200,
+    width: '100%'
   }
 }));
 
 const Waves = function (props) {
   let classes = useStyles()
 
+  const [height, setHeight] = useState(window.innerWidth / 10)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setHeight(window.innerWidth / 10);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  });
+
   return (
     <div className={classes.root}>
-      <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 170" className={classes.svg}>
+      <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 170" className={classes.svg} style={{ height }}>
         <defs>
           <linearGradient x1="49.253%" y1="85.804%" x2="49.253%" y2="43.074%" id="a">
             <stop stopColor="#FFF" offset="0%" />

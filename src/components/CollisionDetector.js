@@ -9,7 +9,7 @@ import d3 from '../lib/d3';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    width: '100vw',
+    width: '100%',
     height: '100vh',
     position: 'relative',
     display: 'flex',
@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
 
     '& canvas': {
       position: 'absolute',
-      width: '100vw',
+      width: '100%',
       height: '100vh',
       top: 0,
       left: 0,

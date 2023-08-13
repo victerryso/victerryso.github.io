@@ -4,10 +4,11 @@
         "company": "Hireup",
         "description": "Frontend of an NDIS registered online platform to find, hire and manage your team of disability support workers",
         "name": "Argos",
+        "team": "Gaia and Medusa",
         "technologies": [
             "Vue",
-            "Jest",
-            "Storybook"
+            "Storybook",
+            "Jest"
         ]
     },
     {
@@ -15,10 +16,12 @@
         "company": "Hireup",
         "description": "Backend of an NDIS registered online platform to find, hire and manage your team of disability support workers",
         "name": "Core",
+        "team": "Gaia and Medusa",
         "technologies": [
             "Node.js",
-            "MongoDB",
-            "AWS"
+            "AWS",
+            "GraphQL",
+            "MongoDB"
         ]
     },
     {
@@ -53,8 +56,8 @@
         "technologies": [
             "React",
             "TypeScript",
-            "Jest",
-            "Storybook"
+            "Storybook",
+            "Jest"
         ]
     },
     {
@@ -62,119 +65,119 @@
         "company": "University of Sydney",
         "description": "Training tool for speech pathologists used by multiple institutions globally",
         "name": "Bridge2Practice",
+        "team": "Dr Liang Voice Program",
         "technologies": [
             "Meteor",
             "AWS",
             "Web RTC",
             "Highcharts"
-        ],
-        "team": "Dr Liang Voice Program"
+        ]
     },
     {
         "background": "../images/bridge-book.jpg",
         "company": "University of Sydney",
         "description": "Documentation for Bridge and a step by step instruction manual on how to acquire environmental keys",
         "name": "Bridge Book",
+        "team": "Dr Liang Voice Program",
         "technologies": [
             "React",
             "Gatsby",
             "Material UI",
             "Netlify"
-        ],
-        "team": "Dr Liang Voice Program"
+        ]
     },
     {
         "background": "../images/dlvp.png",
         "company": "University of Sydney",
         "description": "Latest news feed of the Dr Liang Voice Program",
         "name": "DLVP",
+        "team": "Dr Liang Voice Program",
         "technologies": [
             "React",
             "GraphQL",
             "Gatsby",
             "Contentful"
-        ],
-        "team": "Dr Liang Voice Program"
+        ]
     },
     {
-        "background": "../images/ace-bg.png",
+        "background": "../images/ace.png",
         "company": "University of Sydney",
         "description": "Online learning module to prepare students for fieldwork placement",
         "name": "ACE",
+        "team": "Faculty of Medicine and Health",
         "technologies": [
             "Meteor",
             "Galaxy",
             "Web RTC",
             "Natural Language"
-        ],
-        "team": "Faculty of Medicine and Health"
+        ]
     },
     {
-        "background": "../images/extralarge-bg.png",
+        "background": "../images/extralarge.png",
         "company": "University of Sydney",
         "description": "Academic integrity checker for Excel sheets while also providing rapid marking and feedback functionality",
         "name": "Extralarge",
+        "team": "Faculty of Medicine and Health",
         "technologies": [
             "Meteor",
             "XPath",
             "MS Excel Parsing"
-        ],
-        "team": "Faculty of Medicine and Health"
+        ]
     },
     {
-        "background": "../images/mrsflip-bg.png",
+        "background": "../images/mrsflip.png",
         "company": "University of Sydney",
         "description": "Flipped classroom for the Faculty of Medical Radiation Science",
         "name": "MRSflip",
+        "team": "Faculty of Medicine and Health",
         "technologies": [
             "Django",
             "Reauthoring",
             "Data2u"
-        ],
-        "team": "Faculty of Medicine and Health"
+        ]
     },
     {
         "background": "../images/tax-automate-platform.jpg",
         "company": "PwC",
         "description": "OCR parsing to collect data in PDF forms for benchmarking, analytics and generating Word reports",
         "name": "Playfair (Tax Automate Platform)",
+        "team": "Enterprise Digital",
         "technologies": [
             "Ruby on Rails",
             "Tesseract",
             "MS Word Parsing"
-        ],
-        "team": "Enterprise Digital"
+        ]
     },
     {
         "name": "Swift",
         "description": "Parsing Excel sheets and categorising fixed assets into their classifications",
         "background": "../images/swift.jpg",
         "company": "PwC",
+        "team": "Enterprise Digital",
         "technologies": [
             "Meteor",
             "Semantic UI",
             "XPath",
             "MS Excel Parsing"
-        ],
-        "team": "Enterprise Digital"
+        ]
     },
     {
         "name": "Machine Learning Automation",
         "description": "Automatically identifies tables within a PDF document and extracts the financial data contained in those tables into XLSX",
         "background": "../images/machine-learning-automation.jpg",
         "company": "PwC",
+        "team": "Enterprise Digital",
         "technologies": [
             "Meteor",
             "Semantic UI",
             "XPath",
             "MS Excel Parsing"
-        ],
-        "team": "Enterprise Digital"
+        ]
     },
     {
         "name": "Private Playground",
         "description": "Ecommerce platform for selling goodies",
-        "background": "../images/private-playground-bg.png",
+        "background": "../images/private-playground.png",
         "company": "Freelance",
         "technologies": [
             "Shopify"
@@ -203,7 +206,7 @@
         ]
     },
     {
-        "background": "../images/covid-bg.png",
+        "background": "../images/covid.png",
         "company": "Personal Projects",
         "description": "Data visualisation of COVID-19 utilising data by Johns Hopkins University",
         "name": "COVID-19",
@@ -215,7 +218,7 @@
         ]
     },
     {
-        "background": "../images/thursdays-bg.png",
+        "background": "../images/thursdays.png",
         "company": "Personal Projects",
         "description": "Data visualisation of my weekly Thursday night dining locations",
         "name": "Thursdays",
@@ -227,7 +230,7 @@
         ]
     },
     {
-        "background": "../images/portfolio-bg.png",
+        "background": "../images/portfolio.png",
         "company": "Personal Projects",
         "description": "Collection of the projects I've worked on throughout my career as a Web Developer",
         "name": "Portfolio",
@@ -236,5 +239,5 @@
             "D3",
             "Material UI"
         ]
-    }    
+    }
 ]
