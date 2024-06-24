@@ -31,7 +31,7 @@ const Introduction = function (props) {
       </Typography>
 
       <Typography variant='body1' paragraph color='textPrimary' className={classes.text}>
-        Personal focuses on rapid prototyping, data analytics and visualisations
+      Passionate about building solutions with real-world impact
       </Typography>
     </Container>
   )
