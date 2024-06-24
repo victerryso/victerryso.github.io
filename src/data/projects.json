@@ -1,10 +1,21 @@
 [
     {
-        "background": "../images/argos.png",
+        "background": "../images/gaia.png",
         "company": "Hireup",
-        "description": "Frontend of an NDIS registered online platform to find, hire and manage your team of disability support workers",
-        "name": "Argos",
-        "team": "Gaia and Medusa",
+        "description": "Onboarding experience for support workers with identification verification and compliance",
+        "name": "Gaia",
+        "technologies": [
+            "Node.js",
+            "AWS",
+            "GraphQL",
+            "MongoDB"
+        ]
+    },
+    {
+        "background": "../images/medusa.png",
+        "company": "Hireup",
+        "description": "Job board allowing people seeking support to post jobs and seamlessly find and connect with support workers.",
+        "name": "Medusa",
         "technologies": [
             "Vue",
             "Storybook",
@@ -12,16 +23,15 @@
         ]
     },
     {
-        "background": "../images/core.png",
+        "background": "../images/griffin.png",
         "company": "Hireup",
-        "description": "Backend of an NDIS registered online platform to find, hire and manage your team of disability support workers",
-        "name": "Core",
-        "team": "Gaia and Medusa",
+        "description": "Public-facing frontend used for SEO optimization, marketing, user acquisition, information delivery, and brand promotion.",
+        "name": "Griffin",
         "technologies": [
-            "Node.js",
-            "AWS",
-            "GraphQL",
-            "MongoDB"
+            "React",
+            "Google Analytics",
+            "Mixpanel",
+            "Segment"
         ]
     },
     {
