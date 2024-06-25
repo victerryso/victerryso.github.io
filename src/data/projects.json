@@ -1,6 +1,6 @@
 [
     {
-        "background": "../images/gaia.png",
+        "background": "../images/gaia.jpg",
         "company": "Hireup",
         "description": "Onboarding experience for support workers with identification verification and compliance",
         "name": "Gaia",
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "background": "../images/medusa.png",
+        "background": "../images/medusa.jpg",
         "company": "Hireup",
         "description": "Job board allowing people seeking support to post jobs and seamlessly find and connect with support workers.",
         "name": "Medusa",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "background": "../images/griffin.png",
+        "background": "../images/griffin.jpg",
         "company": "Hireup",
         "description": "Public-facing frontend used for SEO optimization, marketing, user acquisition, information delivery, and brand promotion.",
         "name": "Griffin",
@@ -71,7 +71,7 @@
         ]
     },
     {
-        "background": "../images/bridge.png",
+        "background": "../images/bridge.jpg",
         "company": "University of Sydney",
         "description": "Training tool for speech pathologists used by multiple institutions globally",
         "name": "Bridge2Practice",
@@ -97,7 +97,7 @@
         ]
     },
     {
-        "background": "../images/dlvp.png",
+        "background": "../images/dlvp.jpg",
         "company": "University of Sydney",
         "description": "Latest news feed of the Dr Liang Voice Program",
         "name": "DLVP",
@@ -110,7 +110,7 @@
         ]
     },
     {
-        "background": "../images/ace.png",
+        "background": "../images/ace.jpg",
         "company": "University of Sydney",
         "description": "Online learning module to prepare students for fieldwork placement",
         "name": "ACE",
@@ -123,7 +123,7 @@
         ]
     },
     {
-        "background": "../images/extralarge.png",
+        "background": "../images/extralarge.jpg",
         "company": "University of Sydney",
         "description": "Academic integrity checker for Excel sheets while also providing rapid marking and feedback functionality",
         "name": "Extralarge",
@@ -135,7 +135,7 @@
         ]
     },
     {
-        "background": "../images/mrsflip.png",
+        "background": "../images/mrsflip.jpg",
         "company": "University of Sydney",
         "description": "Flipped classroom for the Faculty of Medical Radiation Science",
         "name": "MRSflip",
@@ -187,7 +187,7 @@
     {
         "name": "Private Playground",
         "description": "Ecommerce platform for selling goodies",
-        "background": "../images/private-playground.png",
+        "background": "../images/private-playground.jpg",
         "company": "Freelance",
         "technologies": [
             "Shopify"
@@ -196,7 +196,7 @@
     {
         "name": "Agile Hotspot",
         "description": "Online learning platform for agile and scrum certification",
-        "background": "../images/agile-hotspot.png",
+        "background": "../images/agile-hotspot.jpg",
         "company": "Freelance",
         "technologies": [
             "Thinkific",
@@ -216,7 +216,7 @@
         ]
     },
     {
-        "background": "../images/covid.png",
+        "background": "../images/covid.jpg",
         "company": "Personal Projects",
         "description": "Data visualisation of COVID-19 utilising data by Johns Hopkins University",
         "name": "COVID-19",
@@ -228,7 +228,7 @@
         ]
     },
     {
-        "background": "../images/thursdays.png",
+        "background": "../images/thursdays.jpg",
         "company": "Personal Projects",
         "description": "Data visualisation of my weekly Thursday night dining locations",
         "name": "Thursdays",
@@ -240,7 +240,7 @@
         ]
     },
     {
-        "background": "../images/portfolio.png",
+        "background": "../images/portfolio.jpg",
         "company": "Personal Projects",
         "description": "Collection of the projects I've worked on throughout my career as a Web Developer",
         "name": "Portfolio",
